@@ -1,0 +1,61 @@
+header {
+    background-image: linear-gradient(black, black, black, black, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8), hsla(0, 0%, 0%, 0.7), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+    height: 5rem;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    margin-bottom: 7rem;
+    img {
+        width:100px;
+        margin-left: 1rem;
+    }
+    nav {
+        
+        //Hamburger himself
+        
+        
+        
+       //Desktop navigation
+        .navdt {
+            a {
+                margin-right: 2.5rem;
+                font : {
+                    family: 'Ubuntu Condensed', Sans-serif;
+                    size: 1.3rem;
+                }
+                text-decoration: none;
+                color: $menucolor;
+                &:hover {
+                    color: $menucovercolor;
+                }
+            }
+        }
+    }
+
+.hamburger {
+    margin-right: 1rem;
+        >span {
+            display: block;
+            width: 30px;
+            height: 3px;
+            background-color: white;
+            &:not(:last-child){
+                margin-bottom: 5px;
+            }
+            transition: all 100ms ease-in-out;
+            transform-origin: 4px 2px;
+        }
+        &.open {
+            >span:first-child {
+                transform: rotate(45deg);
+            }
+            >span:nth-child(2){
+                opacity: 0;
+            }
+            >span:last-child {
+                transform: rotate(-45deg);
+            }
+            
+        }
+}
+}

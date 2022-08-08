@@ -1,0 +1,30 @@
+.project-sample {
+    padding: 3rem 0;
+    img {
+        width: 250px;
+        margin: 0.5rem;
+        border: 1px solid white;
+    }
+    .aside {
+        text-align: center;
+        margin-top: 0.5rem !important;
+        font : {
+            family: 'Ubuntu', san-serif;
+            size: 0.85rem;
+            style: italic;
+            weight: 200;
+            color: hsla(0, 0%, 90%, 1);
+        }
+    }
+    .project-details {
+        min-width: 300px;
+        max-width: 50%;
+        p {
+            margin-top: 1rem;
+        }
+        .buttons {
+            margin-top: 1rem;
+        }
+    }
+}
+

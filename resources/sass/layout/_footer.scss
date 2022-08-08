@@ -1,0 +1,37 @@
+footer {
+    display: block;
+    width: 100%;
+    margin-top: $sectop;
+    background-color: $secback;
+    padding: 1rem 0;
+    #contact {
+        margin-top: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: center;
+        div {
+            min-width: 300px;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+        }
+        ul {
+            li {
+                margin: 1rem 0;
+                list-style: none;
+            }
+        }
+        a {
+            color: $menucolor;
+            font-size: 1.5rem;
+            text-decoration: none;
+            
+            &:hover {
+                color: $menucovercolor;
+                text-decoration: underline;
+            }
+        }
+    }
+    
+}

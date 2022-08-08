@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="resources/sass/main.css" rel="stylesheet" type="text/css">
+    <!-- font-awesome  -->
+    <script src="https://kit.fontawesome.com/6350c6b9dc.js" crossorigin="anonymous"></script>
+    <title>ELLIAS - the Web Developer</title>
+</head>
+<body>
+    <header class="flex flex-ai-c flex-jc-sb">
+        <a href="#home"><img src="/resources/pics/ellias-logo-w.png" alt="logo"></a>
+        
+         
+        <nav>
+            <!--Links for normal menu-->
+            <div class="navdt hide-for-mobile">  
+                    <a href="#about">#about</a>
+                    <a href="#myworks">.myWorks</a>
+                    <a href="#skills">$skills</a>
+                    <a href="#contact">contactMe()</a>    
+            </div>
+        </nav>
+        <!--Hamburger menu-->  
+        <a id="hbtn" href="#dummy" class="hamburger hide-for-desktop">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+    </header>
+            <!-- MOBILE MENU -->
+    <div class="mobmenu">  
+        <a href="#about" id="01" onclick="toggle()">#about</a>
+        <a href="#myworks" id="02" onclick="toggle()">.myWorks</a>
+        <a href="#skills" id="03" onclick="toggle()">$skills</a>
+        <a href="#contact" id="04" onclick="toggle()">contactMe()</a>    
+    </div>
+<!-- Main part -->
+    <main>
+        <h1  id="home">Hi, I'm Ellias, a freelance web developer</h1>
+        <p id="subhead">I feel coding is a kind of nowaday's magic.<br>
+            I love the idea that, using certain words in certain order, I can make things look and work my way.
+        </p>
+       
+    <!-- ABOUT -->
+        <div class="sec" id="about">
+            <img id="mobile-ava" src="resources/pics/ava.jpg" alt="Ellias">
+            <h2>About Me</h2>
+            <div class="content">
+                <img id="dt-ava" src="resources/pics/ava.jpg" alt="Ellias">
+                <p id="about-talk">Hi, I'm Illia aka Ellias, a musician under the daylight, and a web developer when it's nighttime.
+                    I started learning web development simply to be able to build my very own DIY website, and eventually fell in love with coding.
+                    To me, it is yet another form of modern art, where I can indefinitely create. 
+                </p>
+            </div>
+        </div>
+
+    <!-- WORKS -->
+        <!-- preview modal -->
+   
+        <div id="modal">
+            <span onclick="modalClose()">[close]</span>
+            <div id="picture">
+
+            </div>
+        </div>     
+    </div>
+        <!-- preview modal end  -->
+        
+      
+        <div class="sec" id="myworks">
+            <h2>My Works</h2>
+            <div class="content">
+             <!-- sample starts -->
+                <div class="project-sample flex flex-fw flex-jc-sa">
+                    <img src="resources/pics/myworks/thumbnails/illianetkach.jpg" alt="Musicians website">
+                    <div class="project-details">
+                        <h4>Multipage Website (musician)</h4>
+                        <p class="aside">(HTML, CSS, JS)</p>
+                        <p>
+                            A static multipage website based on HTML, CSS (SaSS) and vanilla JavaScript.
+                        </p>
+                        <div class="buttons flex flex-jc-sa">
+                            <a href="#dummy" class="btn btn-preview" onclick="modalOpen('illianetkach')">Preview</a>
+                            <a href="https://i-netkach.com" target="_blank" class="btn btn-visit">Visit</a>
+                        </div>
+                    </div>
+                </div>
+                 <!-- sample ends -->
+                 <!-- sample starts -->
+        <div class="project-sample flex flex-fw flex-jc-sa">
+            <img src="resources/pics/myworks/thumbnails/copywriter.jpg" alt="Copywriters portfolio">
+            <div class="project-details">
+                <h4>Portfolio Website (copywriter)</h4>
+                <p class="aside">(HTML, CSS (Sass), JS)</p>
+                <p>
+                    A static single-page website based on HTML, CSS (SaSS) and vanilla JavaScript.
+                </p>
+                <div class="buttons flex flex-jc-sa">
+                    <a href="#dummy" class="btn btn-preview" onclick="modalOpen('copywriter')">Preview</a>
+                    <a href="https://lubovdanko.com" target="_blank" class="btn btn-visit">Visit</a>
+                </div>
+            </div>
+        </div>
+         <!-- sample ends -->
+           </div>
+        </div>
+
+        
+        
+         
+
+         <div class="sec" id="skills">
+            <h2>My Skills</h2>
+            <div class="content">
+                <h3>Courses & Certs</h3>
+                <div class="figures flex flex-jc-sa flex-fw">
+                    <figure>
+                        <img src="/resources/pics/certs/frontend-codecademy.jpg" alt="Front End Career Path Certificate">
+                        <figcaption>Front-End Engineer Career Path</figcaption>
+                        <aside><p>Codecademy</p></aside>
+                    </figure>
+                    <figure>
+                        <img src="/resources/pics/certs/frontend-codecademy.jpg" alt="Front End Career Path Certificate">
+                        <figcaption>Front-End Engineer Career Path</figcaption>
+                        <aside><p>Codecademy</p></aside>
+                    </figure>
+                    <figure>
+                        <img src="/resources/pics/certs/frontend-codecademy.jpg" alt="Front End Career Path Certificate">
+                        <figcaption>Front-End Engineer Career Path</figcaption>
+                        <aside><p>Codecademy</p></aside>
+                    </figure>
+
+                </div>
+                <h3>I'm particularly strong in:</h3>
+                <div class="fas">
+                    <i class="fa-brands fa-html5" title="HTML5"></i>
+                    <i class="fa-brands fa-css3-alt" title="CSS3"></i>
+                    <i class="fa-brands fa-js" title="JavaScript"></i>
+                    <i class="fa-brands fa-bootstrap" title="Bootstrap"></i>
+                    <i class="fa-brands fa-sass" title="Sass"></i>
+                </div>
+                    
+                    
+
+
+                
+            </div>
+         </div>
+    </main>
+    <footer>
+        <h3>Contact me</h3>
+        <div id="contact">
+            <div>
+                <a href="mailto:ellias.dev@tutanota.com">Email Me</a>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="#"><i class="fab fa-fonticons-fi"></i> Fiverr</a></li>
+                    <li><a href="#"><i class="fa-brands fa-github"></i> Github</a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i> Twitter</a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i> Facebook</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+    <script src="resources/js/script.js"></script>
+</body>
+</html>

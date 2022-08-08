@@ -1,0 +1,32 @@
+//colors
+
+//section background
+$secback: hsla(0, 0%, 0%, 0.7);
+//menu font color
+$menucolor : hsla(0, 0%, 100%, 1.0);
+$amount: 0.25;
+$menucovercolor: fade-out($menucolor, $amount);
+
+//font color - base
+$color: hsla(0, 0%, 100%, 1);
+
+//for drop-shadows
+$shadow: hsla(0, 0%, 0%, 0.5);
+
+//border
+$border-color: hsla(0, 0%, 100%, 1);
+$radius: 58px;
+
+//section
+//sec margin
+$sectop: 7rem;
+//section content width
+$secwidth: 90%;
+
+//font sizes
+$h24: 1.25rem;
+$p: 1rem; 
+
+//Breakpoints
+$breakpoints-up: ("small": "576px", "medium": "768px", "large": "992px", "extra": "1200px");
+$breakpoints-down: ("small": "575px", "medium": "767px", "large": "991px");

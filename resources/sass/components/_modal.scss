@@ -1,0 +1,40 @@
+#modal {
+    display: none;
+        position: fixed;
+        
+        top: 25%;
+        @include breakpoint-up(medium){
+            top: 7%;
+        }
+        
+        left: 50%;
+        margin: 0 0 0 -45%;
+        width: 90%;
+        //height: fit-content;
+       min-height:auto;
+       max-height: 90%;
+        border: 1px solid hsla(27, 91%, 50, 1);
+        box-shadow: 5px 2px 15px 15px $shadow;
+        overflow-y: scroll;
+        z-index: 10;
+        span {
+            position: absolute;
+            z-index: 2;
+            right: 1.5%;
+            top: 1%;
+            color: red;
+            font-size: 1.2rem;
+            text-shadow: 3px 3px 2px $shadow;
+            &:hover {
+                color: green;
+                cursor: pointer;
+            }
+        }
+        #picture {
+            display: block;
+            width: 100%;
+            
+        }
+    
+    }
+

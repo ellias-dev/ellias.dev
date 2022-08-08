@@ -1,0 +1,24 @@
+//mixin for centered block, accepts margin-top
+@mixin c-block($top) {
+    display: block;
+    margin: 0 auto $top auto;
+}
+
+//mixin for border, accepts thikness and radius, default radius is in variables
+@mixin border($size, $rad) {
+    border: $size $border-color solid;
+    border-radius: $rad;
+}
+
+//mixin for media
+@mixin breakpoint-up($size){
+    @media(min-width: map-get($breakpoints-up, $size)){
+        @content;
+    }
+}
+
+@mixin breakpoint-down($size){
+    @media(max-width: map-get($breakpoints-down, $size)){
+        @content;
+    }
+}

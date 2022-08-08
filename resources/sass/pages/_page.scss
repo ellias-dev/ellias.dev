@@ -1,0 +1,78 @@
+body {
+    background-color: black;
+    background-image: url(/resources/pics/background-bw50q.jpg);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+h1, h2, h3, h4, h5, h6, p {
+    color: $color;
+}
+h1, h2, h3, h4, h5, h6, #subhead {
+    text-align: center;
+}
+h1 {
+    font : {
+        family: 'Ubuntu Condensed', san-serif;
+        size: 2.25rem;
+    }
+    text-shadow: 3px 3px 2px $shadow;
+    @include c-block(0.5rem);
+    width: 90%;
+    
+}
+h2 {
+    font : {
+        family: 'Ubuntu', san-serif;
+        size: $h24;
+        weight: 200;
+    } 
+    margin-bottom: 0.5rem;
+}
+h3 {
+    font : {
+        family: 'Ubuntu', san-serif;
+        size: $h24;
+        weight: 400;
+    }
+}
+h4 {
+    font : {
+        family: 'Ubuntu', san-serif;
+        size: $h24;
+        weight: 400;
+    }
+}
+p {
+    font : {
+        family: 'Open Sans', san-serif;
+        size: $p;
+    }
+}
+
+#subhead {
+    font : {
+        family: 'Ubuntu Condensed', san-serif;
+        size: 18px;
+    }
+    text-shadow: 2px 2px $shadow;
+    @include c-block(7rem);
+    width: 95%;
+}
+
+
+
+.sec {
+    
+    width: 100%;
+    @include c-block($sectop);
+    .content {
+        width: 80%;
+        background-color: $secback;
+        padding: 1rem 1.5rem;
+        @include c-block(0px);
+        @include border(1px, $radius);
+    }
+}
+

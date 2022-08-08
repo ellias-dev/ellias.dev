@@ -1,0 +1,27 @@
+.btn {
+    width: 5rem;
+    color: $color;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 5px;
+    
+    font : {
+        family: 'Open sans';
+        size: 0.75rem;
+        weight: 500;
+    }
+    &-preview {
+        background-color: hsla(27, 91%, 50, 1);
+        &:hover {
+            background-color: hsla(27, 91%, 60, 1);;
+        }
+    }
+    &-visit {
+        background-color: hsla(121, 62%, 50, 1);
+        &:hover {
+            background-color: hsla(121, 62%, 60, 1);;
+        }
+    }
+}
+

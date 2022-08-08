@@ -1,0 +1,48 @@
+.figures {
+    margin: 1rem 0 2rem 0;
+}
+figure {
+    width: 300px;
+    margin: 0.5rem;
+    
+    img {
+        
+        width: 300px;
+        justify-self: center;
+    }
+    figcaption {
+        color: $color;
+        text-align: center;
+        font : {
+            size: 0.875rem;
+            family: 'Ubuntu';
+            weight: 400;
+        }
+    }
+    aside p {
+        font : {
+            size: 0.75rem;
+            family: 'Ubuntu';
+            weight: 200;
+            style: italic;
+        }
+        text-align: center;
+    }
+}
+
+.fas {
+    color: $color;
+    font-size: 2rem;
+    padding: 1rem 0;
+    width: 100%;
+    text-align: center;
+    @include breakpoint-up(small){
+        font-size: 2.5rem;
+    }
+    i {
+        margin: 0 0.5rem;
+        @include breakpoint-up(small){
+            margin: 0 1rem;
+        }
+    }
+}

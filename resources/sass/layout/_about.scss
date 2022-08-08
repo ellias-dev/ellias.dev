@@ -1,0 +1,33 @@
+#mobile-ava {
+    width: 100px;
+    filter: drop-shadow(0 0 1px black);
+    display: block;
+    margin: 5rem auto 0 auto;
+    @include border(2px, 50%);
+    margin-bottom: 2rem;
+    @include breakpoint-up(medium){
+        display: none;
+    }
+}
+
+#dt-ava {
+    width: 100px;
+    filter: drop-shadow(0 0 1px black);
+    display: none;
+    margin: 5rem auto 0 auto;
+    @include border(2px, 50%);
+    margin-bottom: 2rem;
+    @include breakpoint-up(medium){
+        display: inline-block;
+        margin: 1rem;
+    }
+}
+
+#about-talk {
+    @include breakpoint-up(medium){
+        display: inline-block;
+        width: 72%;
+        float: right;
+        margin: 1rem;
+    }
+}
