@@ -1,9 +1,3 @@
-//mixin for centered block, accepts margin-top
-@mixin c-block($top) {
-    display: block;
-    margin: 0 auto $top auto;
-}
-
 //mixin for border, accepts thikness and radius, default radius is in variables
 @mixin border($size, $rad) {
     border: $size $border-color solid;

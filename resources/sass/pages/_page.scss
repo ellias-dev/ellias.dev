@@ -18,7 +18,7 @@ h1 {
         size: 2.25rem;
     }
     text-shadow: 3px 3px 2px $shadow;
-    @include c-block(0.5rem);
+    display: block;
     width: 90%;
     
 }
@@ -57,7 +57,7 @@ p {
         size: 18px;
     }
     text-shadow: 2px 2px $shadow;
-    @include c-block(7rem);
+    display: block;
     width: 95%;
 }
 
@@ -66,12 +66,14 @@ p {
 .sec {
     
     width: 100%;
-    @include c-block($sectop);
+    display: block;
+    margin: 7rem auto;
     .content {
         width: 80%;
         background-color: $secback;
         padding: 1rem 1.5rem;
-        @include c-block(0px);
+        display: block;
+        margin: 0 auto;
         @include border(1px, $radius);
     }
 }

@@ -113,7 +113,6 @@ h1 {
   font-size: 2.25rem;
   text-shadow: 3px 3px 2px hsla(0deg, 0%, 0%, 0.5);
   display: block;
-  margin: 0 auto 0.5rem auto;
   width: 90%;
 }
 
@@ -146,21 +145,20 @@ p {
   font-size: 18px;
   text-shadow: 2px 2px hsla(0deg, 0%, 0%, 0.5);
   display: block;
-  margin: 0 auto 7rem auto;
   width: 95%;
 }
 
 .sec {
   width: 100%;
   display: block;
-  margin: 0 auto 7rem auto;
+  margin: 7rem auto;
 }
 .sec .content {
   width: 80%;
   background-color: hsla(0deg, 0%, 0%, 0.7);
   padding: 1rem 1.5rem;
   display: block;
-  margin: 0 auto 0px auto;
+  margin: 0 auto;
   border: 1px hsl(0deg, 0%, 100%) solid;
   border-radius: 58px;
 }
