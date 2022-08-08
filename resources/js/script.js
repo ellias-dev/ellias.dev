@@ -96,7 +96,7 @@ const modalOpen = (pic) => {
     const modal = document.getElementById('modal');
     const picture = document.getElementById('picture');
     
-    picture.style.content = `url(../resources/pics/myworks/full-size/${pic}.jpg)`;
+    picture.style.content = `url(../pics/myworks/full-size/${pic}.jpg)`;
     modal.style.display = 'block';   
 }
 
@@ -116,7 +116,7 @@ const modalToggle = (pic) => {
     const picture = document.getElementById('picture');
 
     if(modal.style.display = 'none'){
-        picture.style.content = `url(../resources/pics/myworks/full-size/${pic}.jpg)`;
+        picture.style.content = `url(../pics/myworks/full-size/${pic}.jpg)`;
         modal.style.display = 'block';
     } else {
         //picture.style.content = '';
