@@ -21,7 +21,6 @@
 header {
   background-image: linear-gradient(black, black, black, black, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8), hsla(0deg, 0%, 0%, 0.7), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
   height: 5rem;
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 5;
@@ -400,4 +399,6 @@ footer #contact a {
 footer #contact a:hover {
   color: rgba(255, 255, 255, 0.75);
   text-decoration: underline;
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*# sourceMappingURL=main.css.map */
