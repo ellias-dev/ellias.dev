@@ -15,12 +15,13 @@ h1, h2, h3, h4, h5, h6, #subhead {
 h1 {
     font : {
         family: 'Ubuntu Condensed', san-serif;
-        size: 2.25rem;
+        size: 3rem;
     }
-    text-shadow: 3px 3px 2px $shadow;
+    text-shadow: 4px 4px 4px $shadow;
     display: block;
     margin: 0 auto;
     width: 90%;
+    color: hsla(0, 0%, 100%, 1);
     
 }
 h2 {
@@ -30,15 +31,20 @@ h2 {
         weight: 200;
     } 
     margin-bottom: 0.5rem;
+    color: $headcolor;
 }
 h3 {
+    color: $headcolor;
     font : {
         family: 'Ubuntu', san-serif;
         size: $h24;
         weight: 400;
+    
     }
 }
+
 h4 {
+    color: $headcolor;
     font : {
         family: 'Ubuntu', san-serif;
         size: $h24;
@@ -50,6 +56,7 @@ p {
         family: 'Open Sans', san-serif;
         size: $p;
     }
+    color: $color;
 }
 
 #subhead {
@@ -57,10 +64,11 @@ p {
         family: 'Ubuntu Condensed', san-serif;
         size: 18px;
     }
-    text-shadow: 2px 2px $shadow;
+    text-shadow: 3px 3px 3px $shadow;
     display: block;
     margin: 0 auto;
     width: 95%;
+
 }
 
 

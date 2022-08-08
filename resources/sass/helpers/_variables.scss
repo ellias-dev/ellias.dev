@@ -8,10 +8,11 @@ $amount: 0.25;
 $menucovercolor: fade-out($menucolor, $amount);
 
 //font color - base
-$color: hsla(0, 0%, 100%, 1);
+$headcolor: hsla(0, 0%, 95%, 1);
+$color: hsla(0, 0%, 90%, 1);
 
 //for drop-shadows
-$shadow: hsla(0, 0%, 0%, 0.5);
+$shadow: hsla(0, 0%, 0%, 0.7);
 
 //border
 $border-color: hsla(0, 0%, 100%, 1);
