@@ -93,7 +93,7 @@ header .hamburger.open > span:last-child {
 
 body {
   background-color: black;
-  background-image: url(/resources/pics/background-bw50q.jpg);
+  background-image: url(resources/pics/background-bw50q.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
