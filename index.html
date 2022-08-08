@@ -170,8 +170,14 @@
                 </ul>
             </div>
         </div>
+        <div id="copyright">
+            <p>&#169; <span id="year"></span> Ellias.dev - All Rights Reserved</p>
+        </div>
 
     </footer>
     <script src="resources/js/script.js"></script>
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
 </body>
 </html>

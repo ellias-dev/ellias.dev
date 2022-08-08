@@ -3,7 +3,7 @@ footer {
     width: 100%;
     margin-top: $sectop;
     background-color: $secback;
-    padding: 1rem 0;
+    padding: 1rem 0 0 0;
     #contact {
         margin-top: 1rem;
         display: flex;
@@ -33,5 +33,16 @@ footer {
             }
         }
     }
-    
+    #copyright { 
+        display: block;
+        background-color: black;
+        margin-bottom: 0;
+        padding: 0.5rem 0;
+        
+        p {
+            font-size: small;
+            color: white;
+            text-align: center;
+        }
+    }
 }

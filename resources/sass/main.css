@@ -376,7 +376,7 @@ footer {
   width: 100%;
   margin-top: 7rem;
   background-color: hsla(0deg, 0%, 0%, 0.7);
-  padding: 1rem 0;
+  padding: 1rem 0 0 0;
 }
 footer #contact {
   margin-top: 1rem;
@@ -403,6 +403,17 @@ footer #contact a {
 footer #contact a:hover {
   color: rgba(255, 255, 255, 0.75);
   text-decoration: underline;
+}
+footer #copyright {
+  display: block;
+  background-color: black;
+  margin-bottom: 0;
+  padding: 0.5rem 0;
+}
+footer #copyright p {
+  font-size: small;
+  color: white;
+  text-align: center;
 }
 
 /*# sourceMappingURL=main.css.map */
