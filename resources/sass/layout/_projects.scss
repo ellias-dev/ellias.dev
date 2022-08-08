@@ -8,12 +8,13 @@
     .aside {
         text-align: center;
         margin-top: 0.5rem !important;
+        color: hsla(0, 0%, 90%, 1);
         font : {
             family: 'Ubuntu', san-serif;
             size: 0.85rem;
             style: italic;
             weight: 200;
-            color: hsla(0, 0%, 90%, 1);
+            
         }
     }
     .project-details {

@@ -221,7 +221,6 @@ p {
 
 @media (min-width: 768px) {
   #about-talk {
-    display: inline-block;
     width: 72%;
     float: right;
     margin: 1rem;
@@ -239,11 +238,11 @@ p {
 .project-sample .aside {
   text-align: center;
   margin-top: 0.5rem !important;
+  color: hsl(0deg, 0%, 90%);
   font-family: "Ubuntu", san-serif;
   font-size: 0.85rem;
   font-style: italic;
   font-weight: 200;
-  font-color: hsl(0deg, 0%, 90%);
 }
 .project-sample .project-details {
   min-width: 300px;
