@@ -24,7 +24,7 @@
                     <a href="#about">#about</a>
                     <a href="#myworks">.myWorks</a>
                     <a href="#skills">$skills</a>
-                    <a href="#contact">contactMe()</a>    
+                    <a href="#contactme">contactMe()</a>    
             </div>
         </nav>
         <!--Hamburger menu-->  
@@ -39,7 +39,7 @@
         <a href="#about" id="01" onclick="toggle()">#about</a>
         <a href="#myworks" id="02" onclick="toggle()">.myWorks</a>
         <a href="#skills" id="03" onclick="toggle()">$skills</a>
-        <a href="#contact" id="04" onclick="toggle()">contactMe()</a>    
+        <a href="#contactme" id="04" onclick="toggle()">contactMe()</a>    
     </div>
 <!-- Main part -->
     <main>
@@ -49,9 +49,9 @@
         </p>
        
     <!-- ABOUT -->
-        <div class="sec" id="about">
+        <div class="sec">
             <img id="mobile-ava" src="resources/pics/ava.jpg" alt="Ellias">
-            <h2>About Me</h2>
+            <h2  id="about">About Me</h2>
             <div class="content">
                 <img id="dt-ava" src="resources/pics/ava.jpg" alt="Ellias">
                 <p id="about-talk">Hi, I'm Illia aka Ellias, a musician under the daylight, and a web developer when it's nighttime.
@@ -74,8 +74,8 @@
         <!-- preview modal end  -->
         
       
-        <div class="sec" id="myworks">
-            <h2>My Works</h2>
+        <div class="sec">
+            <h2 id="myworks">My Works</h2>
             <div class="content">
              <!-- sample starts -->
                 <div class="project-sample flex flex-fw flex-jc-sa">
@@ -116,8 +116,8 @@
         
          
 
-         <div class="sec" id="skills">
-            <h2>My Skills</h2>
+         <div class="sec">
+            <h2  id="skills">My Skills</h2>
             <div class="content">
                 <h3>Courses & Certs</h3>
                 <div class="figures flex flex-jc-sa flex-fw">
@@ -155,7 +155,7 @@
          </div>
     </main>
     <footer>
-        <h3>Contact me</h3>
+        <h3 id="contactme">Contact me</h3>
         <div id="contact">
             <div>
                 <a href="mailto:ellias.dev@tutanota.com">Email Me</a>
