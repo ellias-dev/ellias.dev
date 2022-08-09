@@ -395,15 +395,22 @@ footer #contact div {
   display: flex;
   align-content: center;
   justify-content: center;
+  padding-top: 1rem;
 }
 footer #contact ul li {
-  margin: 1rem 0;
+  margin: 0 0 1rem 0;
   list-style: none;
 }
 footer #contact a {
   color: hsl(0deg, 0%, 100%);
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  font-family: "Ubuntu Light";
   text-decoration: none;
+}
+@media (min-width: 992px) {
+  footer #contact a {
+    font-size: 1.35rem;
+  }
 }
 footer #contact a:hover {
   color: rgba(255, 255, 255, 0.75);
@@ -412,7 +419,7 @@ footer #contact a:hover {
 footer #copyright {
   display: block;
   background-color: black;
-  margin-bottom: 0;
+  margin: 2rem 0 0 0;
   padding: 0.5rem 0;
 }
 footer #copyright p {

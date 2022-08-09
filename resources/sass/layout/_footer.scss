@@ -15,17 +15,22 @@ footer {
             display: flex;
             align-content: center;
             justify-content: center;
+            padding-top: 1rem;;
         }
         ul {
             li {
-                margin: 1rem 0;
+                margin: 0 0 1rem 0;
                 list-style: none;
             }
         }
         a {
             color: $menucolor;
-            font-size: 1.5rem;
+            font-size: 1.2rem;
+            font-family: 'Ubuntu Light';
             text-decoration: none;
+            @include breakpoint-up(large){
+                font-size: 1.35rem;
+            }
             
             &:hover {
                 color: $menucovercolor;
@@ -36,7 +41,7 @@ footer {
     #copyright { 
         display: block;
         background-color: black;
-        margin-bottom: 0;
+        margin: 2rem 0 0 0;
         padding: 0.5rem 0;
         
         p {
