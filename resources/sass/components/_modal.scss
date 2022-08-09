@@ -18,14 +18,16 @@
         overflow-y: scroll;
         z-index: 10;
         #xclose {
-            width: 2.2rem;
+            width: 25px;
+            height: 25px;
             text-align: center;
             position: absolute;
             right: 0.9rem;
             top: 0.7rem;
+            padding: 11px 5px 0 6px;
+            line-height: 10px;
             color: black;
             background-color: $headcolor;
-            padding: 0.1rem 0.3rem 0.4rem 0.3rem;
             border: 1px black solid;
             border-radius: 50%;
             font-size: 2rem;
