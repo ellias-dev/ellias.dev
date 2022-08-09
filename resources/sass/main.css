@@ -168,7 +168,7 @@ p {
 .sec .content {
   width: 80%;
   background-color: hsla(0deg, 0%, 0%, 0.7);
-  padding: 1rem 1.5rem;
+  padding: 2rem 1.5rem;
   display: block;
   margin: 0 auto;
   border: 1px hsl(0deg, 0%, 100%) solid;
@@ -240,7 +240,7 @@ p {
 }
 
 .project-sample {
-  padding: 3rem 0;
+  padding: 1rem 0 3rem 0;
 }
 .project-sample img {
   width: 250px;

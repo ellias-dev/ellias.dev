@@ -84,7 +84,7 @@ p {
     .content {
         width: 80%;
         background-color: $secback;
-        padding: 1rem 1.5rem;
+        padding: 2rem 1.5rem;
         display: block;
         margin: 0 auto;
         @include border(1px, $radius);
