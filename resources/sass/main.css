@@ -142,8 +142,8 @@ h3 {
 h4 {
   color: hsl(0deg, 0%, 95%);
   font-family: "Ubuntu", san-serif;
-  font-size: 1.25rem;
-  font-weight: 400;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 p {
@@ -242,6 +242,7 @@ p {
 }
 
 .project-sample {
+  margin-top: 1rem;
   padding: 1rem 0 3rem 0;
 }
 .project-sample img {
@@ -271,7 +272,7 @@ p {
 
 .btn {
   width: 5rem;
-  color: hsl(0deg, 0%, 90%);
+  color: #080808;
   text-decoration: none;
   text-align: center;
   padding: 0.5rem;
